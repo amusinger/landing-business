@@ -1,0 +1,219 @@
+body{
+	font-size: 16px;
+}
+section{
+	padding: 50px;
+}
+.theme-blue{
+	background: -webkit-radial-gradient(left top,circle cover,rgb(12,180,206),rgb(6,116,236) 100%);
+	color:white;
+}
+
+.theme-white{
+	background-color: white;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.8em; }
+h5 { font-size: 1.7em; }
+h6 { font-size: 1.5em; }
+p{
+	font-size: 1.2em;
+}
+.separator{
+	border-color: #0cb4ce;
+	width: 80px;
+	border-top-width: 2px;
+	border-style: solid;
+	padding: 10px;
+}
+
+/*	HEADER */
+#fullscreen {
+	background-image: url('../img/girl.jpg');
+	background-size: cover;
+	height: 100%;
+	color: white;  
+	display: flex;
+	align-items: center
+}
+
+
+#fullscreen .container .row{
+	padding: 5%;
+}
+.intro_text{
+	text-align: center;
+	padding: 30px;
+
+}
+.header-img img{
+	float: right;
+	max-height: 450px;
+}
+
+.intro_download_btn{
+	width: 100%;
+}
+
+/**Video**/
+#video_block{
+	padding: 50px;
+}
+
+/**Features**/
+#features h2{
+	color: white;
+}
+
+#features .thumbnail{
+	border: none;
+	padding: 30px;
+	border-radius: 0px;
+	height: 550px;
+}
+#features img{
+	height: 45%;
+}
+
+
+/* DOWNLOAD BLOCK*/
+.downloadApp{
+	margin: auto;
+	text-align:center;
+	color: #303133;
+	font-weight:600;
+}
+
+.appPlay1{
+	margin-top: 20px;
+	width: 210px;
+	float: right;
+}
+
+.appPlay2{
+	margin-top: 20px;
+	width: 210px;
+	float: left;
+}
+
+.phone{
+	padding: 20px;
+}
+
+.phone img{
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+/**SEND REQUEST FORM**/
+.inputs{
+	/*width: 300px !important;*/
+	display: inline;
+	/*margin-left: 20px;
+	margin-right: 20px;*/
+	margin-top:20px;
+}
+.forms{
+	/*	width: 1100px;*/
+	text-align: center;
+	padding: 50px;
+}
+.inputText{
+	margin-top: 20px;
+	/*width: 998px;*/
+	border-radius: 5px;
+	/*margin-left: 35px !important;*/
+}
+
+#btn_request{
+	color: white;
+	background: black;
+	font-weight: 600 !important;
+	height: 45px;
+	width: 200px;
+	margin-top: 20px;
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+
+
+/**ABOUT US BLOCK**/
+.projects{
+	/*float: left;*/
+	/*height: 300px;*/
+	padding: 20px;
+}
+
+.aboutUs{
+	/*float: right;*/
+	height: 300px;
+}
+
+
+.about_company__text{
+	margin-top: 30px;
+}
+
+
+/**SOCIAL**/
+
+.social{
+ height: 300px;  
+  padding: 50px;
+  text-align: center;
+}
+
+
+@media(max-width: 767px){
+	
+	.phone{
+		display: none !important;
+	}
+	#hidden-mobile{
+		display: none !important;
+	}
+
+	/*.projects .aboutus{
+		margin: 0 !important;
+		display: block;
+
+		}*/
+
+		.downloadApp{
+
+		}
+
+	}
+
+@media (min-width: 858px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 780px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 702px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 724px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 623px) {
+    html {
+        font-size: 8px;
+    }
+}
