@@ -1,5 +1,6 @@
 body{
 	font-size: 16px;
+	box-sizing: border-box; 
 }
 section{
 	padding: 50px;
@@ -71,7 +72,7 @@ p{
 	border: none;
 	padding: 30px;
 	border-radius: 0px;
-	height: 550px;
+	/* height: 550px; */
 }
 #features img{
 	height: 45%;
@@ -86,17 +87,13 @@ p{
 	font-weight:600;
 }
 
-.appPlay1{
+.appPlay{
 	margin-top: 20px;
 	width: 210px;
-	float: right;
+	height: auto;
+	margin: 0 auto;
 }
 
-.appPlay2{
-	margin-top: 20px;
-	width: 210px;
-	float: left;
-}
 
 .phone{
 	padding: 20px;
@@ -149,7 +146,7 @@ p{
 
 .aboutUs{
 	/*float: right;*/
-	height: 300px;
+	height: 100%;
 }
 
 
@@ -187,7 +184,7 @@ p{
 		}
 
 	}
-
+/* 
 @media (min-width: 858px) {
     html {
         font-size: 12px;
@@ -217,3 +214,4 @@ p{
         font-size: 8px;
     }
 }
+ */
