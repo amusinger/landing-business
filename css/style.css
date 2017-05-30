@@ -193,8 +193,12 @@ p{
 
 /**ABOUT US BLOCK**/
 #about_company{
+
 	padding: 30px;
 	
+}
+#about_company h2{
+	color: black;
 }
 .projects{
 	/*float: left;*/
