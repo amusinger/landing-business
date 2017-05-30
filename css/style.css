@@ -14,13 +14,13 @@ section{
 	background-color: white;
 }
 
-h1 { font-size: 2.5em; }
-h2 { font-size: 2em; }
-h3 { font-size: 1.8em; }
-h5 { font-size: 1.7em; }
+h1 { font-size: 2.3em; }
+h2 { font-size: 1.9em; }
+h3 { font-size: 1.7em; }
+h5 { font-size: 1.6em; }
 h6 { font-size: 1.5em; }
 p{
-	font-size: 1.2em;
+	font-size: 1.1sem;
 }
 .separator{
 	border-color: #0cb4ce;
@@ -36,7 +36,7 @@ p{
 	background-size: cover;
 	height: 100%;
 	color: white;  
-	/*display: flex;*/
+	display: flex;
 	align-items: center;
 	
 }
@@ -96,13 +96,13 @@ p{
 
 .appPlay1{
 	margin-top: 20px;
-	width: 100%;
+	width: 90%;
 	/*float: right: ;ight;*/
 }
 
 .appPlay2{
 	margin-top: 20px;
-	width: 100%;
+	width: 90%;
 	/*	float: left;*/
 }
 
@@ -149,6 +149,9 @@ p{
 
 
 /**ABOUT US BLOCK**/
+#about_company{
+	padding: 50px;
+}
 .projects{
 	/*float: left;*/
 	/*height: 300px;*/
@@ -198,34 +201,34 @@ p{
 		float: none;
 	}
 }
-/* 
+ 
 @media (min-width: 858px) {
-    html {
-        font-size: 12px;
-    }
-}
-
-@media (min-width: 780px) {
     html {
         font-size: 11px;
     }
 }
 
-@media (min-width: 702px) {
+@media (min-width: 780px) {
     html {
         font-size: 10px;
     }
 }
 
-@media (min-width: 724px) {
+@media (min-width: 702px) {
     html {
         font-size: 9px;
     }
 }
 
-@media (max-width: 623px) {
+@media (min-width: 724px) {
     html {
         font-size: 8px;
     }
 }
- */
+
+@media (max-width: 623px) {
+    html {
+        font-size: 7px;
+    }
+}
+ 
