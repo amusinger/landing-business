@@ -70,6 +70,8 @@ p{
 }
 #features h2{
 	color: white;
+	max-height: 220px;
+	min-height: 150px;
 
 }
 
