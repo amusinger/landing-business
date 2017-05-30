@@ -110,12 +110,14 @@ p{
 /* DOWNLOAD BLOCK*/
 #download_block{
 	 padding: 25px; 
+
 }
 .downloadApp{
 	margin: auto;
 	text-align:center;
-	color: #303133;
+	/* color: #303133; */
 	font-weight:600;
+	 color: white;
 }
 
 .appPlay1{
@@ -143,21 +145,21 @@ p{
 }
 
 
-/**PARALLAX**/
-.parallax {
-    /* The image used */
-    background-image: url('../img/bg.jpg');
 
-    /* Full height */
-    height: 100%; 
+/***PARALLAX**/
+.parallax { 
+    /* The image used */
+    background-image: url('../img/perspective.jpg');
+    /* Set a specific height */
+    height: 500px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
 
+}
 
 /**SEND REQUEST FORM**/
 .inputs{
