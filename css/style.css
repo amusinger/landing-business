@@ -37,7 +37,7 @@ p{
 #fullscreen {
 	height: 100%;
 	color: white;  
-	display: flex;
+	/* display: flex; */
 	align-items: center;
 	background-image: url('../img/girl.jpg');
     background-size: cover;
@@ -112,18 +112,20 @@ p{
 }
 
 .appPlay1{
-	margin-top: 20px;
-	width: 90%;
+	/* margin-top: 20px;
+	 */width: 90%;
 	/*float: right: ;ight;*/
 }
 
 .appPlay2{
-	margin-top: 20px;
 	width: 90%;
 	/*	float: left;*/
+	/* margin-top: 20px; */
 }
 
-
+.appPlay{
+	padding-left: 25px;
+}
 .phone{
 	padding: 20px;
 }
@@ -167,6 +169,7 @@ p{
 
 /**ABOUT US BLOCK**/
 #about_company{
+	padding: 30px;
 	
 }
 .projects{
@@ -183,7 +186,7 @@ p{
 
 .about_company__text{
 /* 	margin-top: 30px;
-	 */	padding: 30px;
+	 padding: 30px;*/
 }
 
 
@@ -204,26 +207,8 @@ p{
 		display: none !important;
 
 	}
-
-	h1 {
-		font-size: 3em !important;
-	}
-
-	.appPlay1 .appPlay2{
-		width: 100%;
-		float: none;
-	}
-
-	.appPlay{
-		text-align: center;
-		float: none;
-	}
 }
-@media(min-width: 769px){
-	#video_block{
-		height: 50%;
-	}
-} 
+
 @media (min-width: 858px) {
     html {
         font-size: 11px;
@@ -254,4 +239,54 @@ p{
         font-size: 7px;
     }
 }
- 
+
+ @media(min-width: 992px) and (max-width: 1025px){
+		.appPlay{
+			padding-left: 10px;
+	}
+}
+
+
+@media(min-width: 768px) and (max-width: 815px){
+	.appPlay{
+	padding-left: 20px;
+	}
+}
+
+
+
+@media(min-width: 1202px) and (max-width: 1230px){
+		.appPlay{
+	padding-right: 20px;
+}
+
+
+
+@media(min-width: 468px) and (max-width: 766px){
+
+
+    .appPlay1 .appPlay2{
+		width: 	70%;
+		float: none;
+	}
+
+	.appPlay{
+		text-align: center;
+		float: none;
+		padding-left: 80px;
+	}
+}
+
+@media(max-width: 467px){
+
+	
+    .appPlay1 .appPlay2{
+		width: 	50%;
+		float: none;
+	}
+
+	.appPlay{
+		text-align: center;
+		float: none;
+	}
+}
