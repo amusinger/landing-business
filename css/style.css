@@ -72,6 +72,13 @@ p{
 	 padding: 50px;
 }
 
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #0884e5;
+}
+
+
 /**Features**/
 #features{
 	padding: 15px;
@@ -157,8 +164,6 @@ p{
 
 #btn_request{
 	text-align: center;
-	color: white;
-	background: black;
 	height: 45px;
 	/*width: 190px;*/
 	margin-top: 20px;
@@ -196,6 +201,8 @@ p{
 	padding: 50px;
 	text-align: center;
 }
+
+/**parallax**/
 
 
 @media(max-width: 767px){
