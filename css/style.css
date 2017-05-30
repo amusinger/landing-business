@@ -3,10 +3,10 @@ body{
 	box-sizing: border-box; 
 }
 section{
-	padding: 50px;
+	/* padding: 50px; */
 }
 .theme-blue{
-	background: -webkit-radial-gradient(left top,circle cover,rgb(12,180,206),rgb(6,116,236) 100%);
+	background: blue -webkit-radial-gradient(left top,circle cover,rgb(12,180,206),rgb(6,116,236) 100%);
 	color:white;
 }
 
@@ -36,8 +36,9 @@ p{
 	background-size: cover;
 	height: 100%;
 	color: white;  
-	display: flex;
-	align-items: center
+	/*display: flex;*/
+	align-items: center;
+	
 }
 
 
@@ -64,6 +65,9 @@ p{
 }
 
 /**Features**/
+#features{
+	padding: 50px;
+}
 #features h2{
 	color: white;
 }
@@ -80,6 +84,9 @@ p{
 
 
 /* DOWNLOAD BLOCK*/
+#download_block{
+	padding: 50px;
+}
 .downloadApp{
 	margin: auto;
 	text-align:center;
@@ -87,11 +94,16 @@ p{
 	font-weight:600;
 }
 
-.appPlay{
+.appPlay1{
 	margin-top: 20px;
-	width: 210px;
-	height: auto;
-	margin: 0 auto;
+	width: 100%;
+	/*float: right: ;ight;*/
+}
+
+.appPlay2{
+	margin-top: 20px;
+	width: 100%;
+	/*	float: left;*/
 }
 
 
@@ -103,7 +115,6 @@ p{
 	margin: 0 auto;
 	padding: 20px;
 }
-
 
 /**SEND REQUEST FORM**/
 .inputs{
@@ -126,11 +137,11 @@ p{
 }
 
 #btn_request{
+	text-align: center;
 	color: white;
 	background: black;
-	font-weight: 600 !important;
 	height: 45px;
-	width: 200px;
+	/*width: 190px;*/
 	margin-top: 20px;
 	font-size: 1.2em;
 	margin-bottom: 5px;
@@ -157,10 +168,9 @@ p{
 
 /**SOCIAL**/
 
-.social{
- height: 300px;  
-  padding: 50px;
-  text-align: center;
+#social_links{
+	padding: 50px;
+	text-align: center;
 }
 
 
@@ -171,19 +181,23 @@ p{
 	}
 	#hidden-mobile{
 		display: none !important;
-	}
-
-	/*.projects .aboutus{
-		margin: 0 !important;
-		display: block;
-
-		}*/
-
-		.downloadApp{
-
-		}
 
 	}
+
+	h1 {
+		font-size: 3em !important;
+	}
+
+	.appPlay1 .appPlay2{
+		width: 100%;
+		float: none;
+	}
+
+	.appPlay{
+		text-align: center;
+		float: none;
+	}
+}
 /* 
 @media (min-width: 858px) {
     html {
