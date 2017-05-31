@@ -332,7 +332,21 @@ p{
 			padding-left: 10px;
 	}
 }
-
+@media (max-width: 991px) {
+  /**
+	 * ====================================
+	 * Features Style 1
+	 * ====================================
+	 */
+  .features-section-1 .features-image {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .vertical-middle {
+    display: block !important;
+  }
+  
+}
 
 @media(min-width: 768px) and (max-width: 815px){
 	.appPlay{
