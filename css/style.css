@@ -78,8 +78,17 @@ p{
 #video_block{
 	 padding: 50px;
 }
+.thumbnail{
+	border-radius: 0px;
+}
 
+.well {
 
+    background-color: #ffffff;
+    border: 1px solid #e3e3e3;
+    border-radius: 0px; 
+    
+}
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: #fff;
     background-color: #0884e5;
@@ -120,39 +129,38 @@ p{
 }
 
 
-/**
- * ====================================
- * Features Style 1
- * ====================================
- */
+/* Features*/
 
- #features{
+#features{
  	padding-top: 20px;
  	padding-bottom: 50px;
  }
-.features-section-1 .features-image {
+
+.features-block{
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+#features .features-image {
   width: 290px;
   margin: auto;
 }
-.sub-title{
-	text-align: center;
-}
-.features-section-1 .features-image img {
+
+#features .features-image img {
   width: 100%;
 }
-.features-section-1 .feature-item {
+#features .feature-item {
   margin-bottom: 60px;
 }
-.features-section-1 .feature-item:last-child {
+#features .feature-item:last-child {
   margin-bottom: 0px;
 }
-.features-section-1 .feature-item .title {
+#features .feature-item .title {
   margin-top: 20px;
 }
-.features-section-1 .feature-item p {
+#features .feature-item p {
   margin-top: 10px;
 }
-.features-section-1 .feature-item p:last-child {
+#features .feature-item p:last-child {
   margin-bottom: 0px;
 }
 
@@ -320,7 +328,7 @@ p{
 }
 
 @media (min-width: 1025px){
-	
+
 }
 
 @media(min-width: 768px) and (max-width: 815px){
