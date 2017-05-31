@@ -2,9 +2,7 @@ body{
 	font-size: 16px;
 	box-sizing: border-box; 
 }
-section{
-	/* padding: 50px; */
-}
+
 .theme-blue{
 	background: blue -webkit-radial-gradient(left top,circle cover,rgb(12,180,206),rgb(6,116,236) 100%);
 	color:white;
@@ -20,23 +18,25 @@ section{
 	color: white;
 }
 
-h1 { 
+h1{ 
 	font-size: 2.3em; 
 	line-height: 1em;
- }
-h2 { 
-	font-size: 1.9em; 
+}
+
+h2{ 
+	font-size: 1.7em; 
 	text-align: center;
 }
-h3 { font-size: 1.6em; }
-h4{
-	font-size: 1.5em;
-}
-h5 { font-size: 1.4em; }
-h6 { font-size: 1.2em; }
+
+h3{ font-size: 1.4em; }
+
+h4{	font-size: 1..3em; }
+h5{ font-size: 1.2em; }
+h6{ font-size: 1.1em; }
 p{
 	font-size: 1em;
 }
+
 .separator{
 	border-color: #0cb4ce;
 	width: 80px;
@@ -46,75 +46,73 @@ p{
 	padding-bottom: 5px;
 }
 
+.text-right{
+	text-align: right;
+}
+
+.text-left{
+	text-align: left;
+}
+
 /*	HEADER */
 #fullscreen {
-	height: 100%;
+	height: 100vh;
 	color: white;  
-	/* display: flex; */
 	align-items: center;
-	background-image: url('../img/bg.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 5%;
-
-	
+    padding: 5%;	
 }
 
-
-#fullscreen .container .row{
-	padding: 5%;
+#fullscreen .fullscreen_content{
+	padding-top: 10%;
 }
+
 .intro_text{
 	text-align: center;
 	padding: 50px;
-
 }
+
 .header-img img{
 	float: right;
 	max-height: 450px;
 }
 
-.intro_download_btn{
-	
+.intro_download_btn{	
 	width: 95%;
 	padding: 15px;
 }
-
 
 /**Video**/
 #video_block{
 	 padding: 50px;
 }
+
 .thumbnail{
 	border-radius: 0px;
 }
 
 .well {
-
     background-color: #ffffff;
     border: 1px solid #e3e3e3;
-    border-radius: 0px; 
-    
-}
-
-.nav-pills>li>a {
-    border-radius: 0px;
+    border-radius: 0px;    
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: #fff;
     background-color: #0884e5;
 }
+
 .icon-blue{
 	color: #0884e5;
 	padding: 5px;
 }
 
-
 /**benefits**/
 #benefits{
 	padding: 15px;
 }
+
 #benefits h2{
 	color: white;
 }
@@ -135,19 +133,12 @@ p{
 	height: 200px;
 	width: auto;
 }
-
-#benefits p{
-/* 	padding: 5px; */
-}
-
-
 /* Features*/
 
 #features{
  	padding-top: 20px;
  	padding-bottom: 50px;
  }
-
 .features-block{
 	padding-top: 30px;
 	padding-bottom: 20px;
@@ -155,8 +146,9 @@ p{
 #features .features-image {
   width: 290px;
   margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
 #features .features-image img {
   width: 100%;
 }
@@ -170,6 +162,7 @@ p{
   margin-top: 20px;
 }
 #features .feature-item p {
+	color: grey;
   margin-top: 10px;
 }
 #features .feature-item p:last-child {
@@ -182,24 +175,6 @@ p{
   vertical-align: middle;
 }
 
-/**SCREENSHOTS GALLERY**/
-/**Carousel**/
-
-.carousel-inner .active.left { left: -25%; }
-.carousel-inner .next        { left:  25%; }
-.carousel-inner .prev		 { left: -25%; }
-.carousel-control 			 { widows: ;:  4%; }
-.carousel-control.left,.carousel-control.right {
-	margin-left:15px;
-	background-image:none;
-}
-
-@media (min-width: 992px){
-	.col-md-offset-3 {
-	    margin-left: 0;
-	}
-}
-
 /* DOWNLOAD BLOCK*/
 #download_block{
 	 padding: 25px; 
@@ -208,25 +183,19 @@ p{
 	 height: 100%;
 }
 
-}
 .downloadApp{
 	margin: auto;
 	text-align:center;
 	/* color: #303133; */
-	font-weight:600;
-	
+	font-weight:600;	
 }
 
 .appPlay1{
-	/* margin-top: 20px;
-	 */width: 90%;
-	/*float: right: ;ight;*/
+	 width: 90%;
 }
 
 .appPlay2{
 	width: 90%;
-	/*	float: left;*/
-	/* margin-top: 20px; */
 }
 
 .appPlay{
@@ -241,21 +210,34 @@ p{
 	padding: 20px;
 }
 
+/**Carousel**/
+
+.carousel-inner .active.left{ 
+	left: -25%;
+}
+.carousel-inner .next{ 
+	left:  25%;
+}
+.carousel-inner .prev{ 
+	left: -25%; 
+}
+.carousel-control{
+	widows: 4%;
+}
+.carousel-control.left,.carousel-control.right{
+	margin-left:15px;
+	background-image:none;
+}
 
 
 /***PARALLAX**/
-.parallax { 
-    /* The image used */
+.parallax{ 
     background-image: url('../img/perspective.jpg');
-    /* Set a specific height */
     height: 500px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 /**SEND REQUEST FORM**/
@@ -277,7 +259,6 @@ p{
 	border-radius: 5px;
 	/*margin-left: 35px !important;*/
 }
-
 #btn_request{
 	text-align: center;
 	height: 45px;
@@ -287,31 +268,21 @@ p{
 	margin-bottom: 5px;
 }
 
-
 /**ABOUT US BLOCK**/
-#about_company{
-	padding-bottom: 30px;
-}
 #about_company h2{
 	color: black;
 }
 .projects{
-	/*float: left;*/
-	/*height: 300px;*/
-	/* padding: 20px; */
+	padding: 20px;
 }
 
 .aboutUs{
-	/*float: right;*/
 	height: 100%;
 }
 
-
 .about_company__text{
- 	/*  padding: 30px; */
+ 	 padding: 30px;
 }
-
-
 
 /**SOCIAL**/
 
@@ -320,64 +291,51 @@ p{
 	text-align: center;
 }
 
-/**parallax**/
 
 
-@media(max-width: 767px){
-	
+@media(max-width: 767px){	
 	.phone{
 		display: none !important;
 	}
+
 	#hidden-mobile{
 		display: none !important;
-
 	}
 }
 
-
-
- @media(min-width: 992px) and (max-width: 1025px){
-		.appPlay{
-			padding-left: 10px;
+@media(min-width: 992px) and (max-width: 1025px){
+	.appPlay{
+		padding-left: 10px;
 	}
 }
-@media (max-width: 991px) {
-  
+
+@media (max-width: 991px) { 
   .features-section-1 .features-image {
     margin-top: 50px;
     margin-bottom: 50px;
   }
+
   .vertical-middle {
     display: block !important;
   }
-  
-}
-
-@media (min-width: 1025px){
-
+  #features .features-block .feature-item{
+  	text-align: center;
+  }  
 }
 
 @media(min-width: 768px) and (max-width: 815px){
 	.appPlay{
-	padding-left: 20px;
+		padding-left: 20px;
 	}
 }
 
-
-
 @media(min-width: 1202px) and (max-width: 1230px){
-		.appPlay{
-	padding-right: 20px;
+	.appPlay{
+		padding-right: 20px;
+	}
 }
-
-}
-
-
-
 
 @media(min-width: 468px) and (max-width: 766px){
-
-
     .appPlay1 .appPlay2{
 		width: 	70%;
 		float: none;
@@ -391,8 +349,6 @@ p{
 }
 
 @media(max-width: 467px){
-
-	
     .appPlay1 .appPlay2{
 		width: 	50%;
 		float: none;
