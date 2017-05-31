@@ -18,7 +18,10 @@ h1 {
 	font-size: 2.3em; 
 	line-height: 1em;
  }
-h2 { font-size: 1.9em; }
+h2 { 
+	font-size: 1.9em; 
+	text-align: center;
+}
 h3 { font-size: 1.7em; }
 h5 { font-size: 1.6em; }
 h6 { font-size: 1.5em; }
@@ -31,6 +34,7 @@ p{
 	border-top-width: 2px;
 	border-style: solid;
 	padding: 10px;
+	padding-bottom: 5px;
 }
 
 /*	HEADER */
@@ -39,7 +43,7 @@ p{
 	color: white;  
 	/* display: flex; */
 	align-items: center;
-	background-image: url('../img/ppl5.jpg');
+/* 	background-image: url('../img/ppl5.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     padding: 5%;
@@ -62,9 +66,9 @@ p{
 }
 
 .intro_download_btn{
-
+	
 	width: 95%;
-	padding: 5px;
+	padding: 15px;
 }
 
 /**Video**/
@@ -83,19 +87,19 @@ p{
 }
 
 
-/**Features**/
-#features{
+/**benefits**/
+#benefits{
 	padding: 15px;
 }
-#features h2{
+#benefits h2{
 	color: white;
 }
 
-#features h3{
+#benefits h3{
 
 }
 
-#features .thumbnail{
+#benefits .thumbnail{
 	border: none;
 	padding: 30px;
 	border-radius: 0px;
@@ -103,19 +107,66 @@ p{
 
 	/* height: 550px; */
 }
-#features img{
+#benefits img{
 	height: 200px;
 	width: auto;
 }
 
-#features p{
+#benefits p{
 /* 	padding: 5px; */
 }
+
+
+/**
+ * ====================================
+ * Features Style 1
+ * ====================================
+ */
+
+ #features{
+ 	padding-top: 20px;
+ 	padding-bottom: 50px;
+ }
+.features-section-1 .features-image {
+  width: 290px;
+  margin: auto;
+}
+.sub-title{
+	text-align: center;
+}
+.features-section-1 .features-image img {
+  width: 100%;
+}
+.features-section-1 .feature-item {
+  margin-bottom: 60px;
+}
+.features-section-1 .feature-item:last-child {
+  margin-bottom: 0px;
+}
+.features-section-1 .feature-item .title {
+  margin-top: 20px;
+}
+.features-section-1 .feature-item p {
+  margin-top: 10px;
+}
+.features-section-1 .feature-item p:last-child {
+  margin-bottom: 0px;
+}
+
+.vertical-middle {
+  display: table-cell;
+  float: none;
+  vertical-align: middle;
+}
+
 
 
 /* DOWNLOAD BLOCK*/
 #download_block{
 	 padding: 25px; 
+	 background-color: rgba(0, 0, 0, 0.48);
+	 color: white;
+}
 
 }
 .downloadApp{
@@ -123,7 +174,7 @@ p{
 	text-align:center;
 	/* color: #303133; */
 	font-weight:600;
-	 color: white;
+	
 }
 
 .appPlay1{
