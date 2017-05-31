@@ -68,6 +68,10 @@ p{
 	padding-top: 10%;
 }
 
+#fullscreen .fullscreen_link a{
+	color: white;
+}
+
 .intro_text{
 	text-align: center;
 	padding: 50px;
