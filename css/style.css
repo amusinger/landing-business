@@ -77,6 +77,10 @@ p{
     color: #fff;
     background-color: #0884e5;
 }
+.icon-blue{
+	color: #0884e5;
+	padding: 5px;
+}
 
 
 /**Features**/
@@ -95,6 +99,8 @@ p{
 	border: none;
 	padding: 30px;
 	border-radius: 0px;
+	min-height: 560px;
+
 	/* height: 550px; */
 }
 #features img{
@@ -103,7 +109,7 @@ p{
 }
 
 #features p{
-	padding: 5px;
+/* 	padding: 5px; */
 }
 
 
@@ -193,9 +199,9 @@ p{
 
 /**ABOUT US BLOCK**/
 #about_company{
-
+/* 
 	padding: 30px;
-	
+	 */
 }
 #about_company h2{
 	color: black;
@@ -213,9 +219,9 @@ p{
 
 
 .about_company__text{
-/* 	margin-top: 30px;
-	 padding: 30px;*/
+ 	 padding: 30px;
 }
+
 
 
 /**SOCIAL**/
