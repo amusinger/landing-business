@@ -22,11 +22,14 @@ h2 {
 	font-size: 1.9em; 
 	text-align: center;
 }
-h3 { font-size: 1.7em; }
-h5 { font-size: 1.6em; }
-h6 { font-size: 1.5em; }
+h3 { font-size: 1.6em; }
+h4{
+	font-size: 1.5em;
+}
+h5 { font-size: 1.4em; }
+h6 { font-size: 1.2em; }
 p{
-	font-size: 1.1em;
+	font-size: 1em;
 }
 .separator{
 	border-color: #0cb4ce;
@@ -166,6 +169,7 @@ p{
 	 padding: 25px; 
 	 background-color: rgba(0, 0, 0, 0.48);
 	 color: white;
+	 height: 100%;
 }
 
 }
@@ -296,36 +300,7 @@ p{
 	}
 }
 
-@media (min-width: 858px) {
-    html {
-        font-size: 11px;
-    }
-}
 
-
-@media (min-width: 780px) {
-    html {
-        font-size: 10px;
-    }
-}
-
-@media (min-width: 702px) {
-    html {
-        font-size: 9px;
-    }
-}
-
-@media (min-width: 724px) {
-    html {
-        font-size: 8px;
-    }
-}
-
-@media (max-width: 623px) {
-    html {
-        font-size: 7px;
-    }
-}
 
  @media(min-width: 992px) and (max-width: 1025px){
 		.appPlay{
@@ -333,11 +308,7 @@ p{
 	}
 }
 @media (max-width: 991px) {
-  /**
-	 * ====================================
-	 * Features Style 1
-	 * ====================================
-	 */
+  
   .features-section-1 .features-image {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -346,6 +317,10 @@ p{
     display: block !important;
   }
   
+}
+
+@media (min-width: 1025px){
+	
 }
 
 @media(min-width: 768px) and (max-width: 815px){
@@ -360,6 +335,9 @@ p{
 		.appPlay{
 	padding-right: 20px;
 }
+
+}
+
 
 
 
