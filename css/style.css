@@ -57,6 +57,7 @@ p{
 /*	HEADER */
 #fullscreen {
 	height: 100vh;
+	background-image: url('../img/back.jpg');
 	color: white;  
 	align-items: center;
     background-size: cover;
@@ -65,7 +66,7 @@ p{
 }
 
 #fullscreen .fullscreen_content{
-	padding-top: 10%;
+	/* padding-top: 10%; */
 }
 
 #fullscreen .fullscreen_link a{
@@ -74,12 +75,12 @@ p{
 
 .intro_text{
 	text-align: center;
-	padding: 50px;
+	padding-top: 20%;
 }
 
 .header-img img{
 	float: right;
-	max-height: 500px;
+	padding-top: 50px;
 }
 
 .intro_download_btn{	
