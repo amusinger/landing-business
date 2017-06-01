@@ -57,12 +57,12 @@ p{
 /*	HEADER */
 #fullscreen {
 	height: 100vh;
-	background-image: url('../img/back.jpg');
+	background-image: url('../img/back1.jpg');
 	color: white;  
 	align-items: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 5%;	
+   	background-size: cover;
+    	background-repeat: no-repeat;
+    	padding: 5%;	
 }
 
 #fullscreen .fullscreen_content{
