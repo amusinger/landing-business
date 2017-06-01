@@ -1,6 +1,7 @@
 body{
 	font-size: 16px;
-	box-sizing: border-box; 
+	box-sizing: border-box;
+	font-family: 'Istok Web', sans-serif;
 }
 
 .theme-blue{
@@ -23,7 +24,7 @@ h1{
 }
 
 h1 span{
-	color: red;
+	color: #f01a4e;;
 }
 
 h2{ 
@@ -40,13 +41,23 @@ p{
 	font-size: 1em;
 }
 
+.sub_title{
+ 	color: grey;
+ 	line-height: 1em;
+ }
+
 .separator{
 	border-color: #0cb4ce;
 	width: 80px;
 	border-top-width: 2px;
 	border-style: solid;
 	
-	border-color: red;
+	border-color: #f01a4e;;
+}
+
+section{
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .text-right{
@@ -127,9 +138,7 @@ p{
  	padding-bottom: 50px;
  }
 
- #features .features_sub_title{
- 	color: grey;
- }
+
 
 .features-block{
 	padding-top: 30px;
@@ -174,7 +183,7 @@ p{
 }
 
 #features i{
-	color: red;
+	color: #f01a4e;
 }
 
 /* DOWNLOAD BLOCK*/
@@ -204,10 +213,14 @@ p{
 
 /**Carousel**/
 #screenshots_gallery{
-	padding-top: 20px;
+	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
+.screenshots_carousel{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 .carousel-inner .active.left{ 
 	left: -25%;
 }
