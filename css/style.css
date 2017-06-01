@@ -12,14 +12,18 @@ body{
 	background-color: white;
 }
 
-.theme-gray{
+.theme-grey{
 	background-color: #f6f6f6;
 	color: black;
 }
 
 h1{ 
 	font-size: 2.3em; 
-	line-height: 1em;
+	line-height: 1.2em;
+}
+
+h1 span{
+	color: red;
 }
 
 h2{ 
@@ -42,6 +46,7 @@ p{
 	border-top-width: 2px;
 	border-style: solid;
 	
+	border-color: red;
 }
 
 .text-right{
@@ -55,8 +60,7 @@ p{
 /*	HEADER */
 #fullscreen {
 	height: 100vh;
-	background-image: url('../img/back1.jpg');
-	color: white;  
+	background-image: url('../img/bg.svg'); 
 	align-items: center;
    	background-size: cover;
    	background-repeat: no-repeat;
@@ -74,6 +78,7 @@ p{
 .intro_text{
 	text-align: center;
 	padding-top: 20%;
+	padding-bottom: 20px;
 }
 
 .header-img img{
@@ -100,13 +105,7 @@ p{
 	padding: 15px;
 }
 
-#benefits h2{
-	color: white;
-}
 
-#benefits h3{
-
-}
 
 #benefits .thumbnail{
 	border: none;
@@ -120,37 +119,49 @@ p{
 	height: 200px;
 	width: auto;
 }
-/* Features*/
 
+
+/** Features **/
 #features{
  	padding-top: 20px;
  	padding-bottom: 50px;
  }
+
+ #features .features_sub_title{
+ 	color: grey;
+ }
+
 .features-block{
 	padding-top: 30px;
 	padding-bottom: 20px;
 }
+
 #features .features-image {
-  width: 290px;
-  margin: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+	width: 290px;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
+
 #features .features-image img {
-  width: 100%;
+  	width: 100%;
 }
+
 #features .feature-item {
-  margin-bottom: 60px;
+  	margin-bottom: 60px;
 }
+
 #features .feature-item:last-child {
-  margin-bottom: 0px;
+	margin-bottom: 0px;
 }
+
 #features .feature-item .title {
-  margin-top: 20px;
+  	margin-top: 20px;
 }
+
 #features .feature-item p {
 	color: grey;
-  margin-top: 10px;
+  	margin-top: 10px;
 }
 #features .feature-item p:last-child {
   margin-bottom: 0px;
@@ -160,6 +171,10 @@ p{
   display: table-cell;
   float: none;
   vertical-align: middle;
+}
+
+#features i{
+	color: red;
 }
 
 /* DOWNLOAD BLOCK*/
@@ -278,7 +293,7 @@ p{
 
 #social_links i{
 	font-size: 1.5em;
-	color: white;
+	color: red;
 	padding: 2px;
 }
 
