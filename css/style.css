@@ -340,6 +340,13 @@ p{
 }
 
 
+@media(max-width:  767px){
+.phone img {
+    margin: 0 auto;
+    height: 200px;
+    width: auto;
+}
+}
 @media (max-width: 991px) { 
   .features-section-1 .features-image {
     margin-top: 50px;
