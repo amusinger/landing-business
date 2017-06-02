@@ -28,7 +28,7 @@ h1 span{
 }
 
 h2{ 
-	font-size: 1.7em; 
+	font-size: 1.9em; 
 	text-align: center;
 }
 
@@ -55,10 +55,10 @@ p{
 	border-color: #f01a4e;;
 }
 
-section{
+/* section{
 	padding-top: 50px;
 	padding-bottom: 50px;
-}
+} */
 
 .text-right{
 	text-align: right;
@@ -70,22 +70,34 @@ section{
 
 /*	HEADER */
 #fullscreen {
-	height: 100vh;
-	background-image: url('../img/bg.svg'); 
-	align-items: center;
-   	background-size: cover;
-   	background-repeat: no-repeat;
-    padding-top: 5%;	
-}
+ 	height: 100vh;
+	/*background-image: url('../img/bg.svg');  */
 
+	background-image: url('../img/bg-man.jpg');
+	background-size: cover;
+   	background-repeat: no-repeat;
+
+}
 #fullscreen .fullscreen_content{
-	/* padding-top: 10%; */
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+
+    
+}
+#fullscreen .fullscreen_intro{
+	padding-top: 5%;
 }
 
 #fullscreen .fullscreen_link a{
 	color: white;
 }
 
+.logo{
+	width: 100%;
+	height: auto;
+
+}
 .intro_text{
 	text-align: center;
 	padding-top: 20%;
@@ -97,10 +109,14 @@ section{
 	padding-top: 50px;
 }
 
+.intro_buttons{
+	padding: 30px;
+}
 .intro_download_btn{
 
 	/* max-width: 95%; */
-	height: 75px;
+
+	height: 70px;
 	padding: 2px;	
 	
 }
@@ -187,6 +203,17 @@ section{
 }
 
 /* DOWNLOAD BLOCK*/
+/***PARALLAX**/
+.parallax{ 
+    background-image: url('../img/perspective.jpg');
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 #download_block{
 	 padding-top: 25px; 
 	 background-color: rgba(0, 0, 0, 0.48);
@@ -203,12 +230,14 @@ section{
 
 
 .phone{
-	padding: 20px;
+	/* padding: 20px;
+	 */
 }
 
 .phone img{
 	margin: 0 auto;
-	padding: 20px;
+	height: 325px;
+	width: auto;
 }
 
 /**Carousel**/
@@ -239,15 +268,6 @@ section{
 }
 
 
-/***PARALLAX**/
-.parallax{ 
-    background-image: url('../img/perspective.jpg');
-    height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 /**SEND REQUEST FORM**/
 .inputs{
@@ -316,7 +336,7 @@ section{
     bottom: 20px;
     right: 20px;
     display:none;
-    color: white;
+    color: grey;
 }
 
 
