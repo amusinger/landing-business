@@ -250,23 +250,29 @@ p{
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-.carousel-inner .active.left{ 
-	left: -25%;
-}
-.carousel-inner .next{ 
-	left:  25%;
-}
-.carousel-inner .prev{ 
-	left: -25%; 
-}
-.carousel-control{
-	widows: 4%;
-}
-.carousel-control.left,.carousel-control.right{
-	margin-left:15px;
-	background-image:none;
+
+#carousel-example-generic-0{
+	padding: 50px; 
 }
 
+#carousel-example-generic-1{
+	padding: 30px;
+}
+
+#carousel-example-generic-2{
+	padding: 30px;
+}
+.carousel.slide img {
+	
+	max-height: 550px;
+	margin: 0 auto;
+    /* width:100%;
+    height:auto; */
+}
+.carousel-control:focus, .carousel-control:hover {
+    
+    opacity: .6;
+}
 
 
 /**SEND REQUEST FORM**/
