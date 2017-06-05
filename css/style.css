@@ -276,9 +276,17 @@ p{
 	opacity: 0.0;
 	color: black;
 }
+
+.carousel-indicators li{
+	border: 1px solid #000;
+}
 .carousel-control:focus, .carousel-control:hover {
     
     opacity: .6;
+}
+ol, ul {
+  
+    margin-bottom: 1px;
 }
 
 
