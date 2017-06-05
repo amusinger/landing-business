@@ -252,7 +252,9 @@ p{
 }
 
 #carousel-example-generic-0{
-	padding: 50px; 
+	padding: 50px;
+	width: 80%;
+	margin: 0 auto; 
 }
 
 #carousel-example-generic-1{
@@ -268,6 +270,11 @@ p{
 	margin: 0 auto;
     /* width:100%;
     height:auto; */
+}
+
+.carousel-control{
+	opacity: 0.0;
+	color: black;
 }
 .carousel-control:focus, .carousel-control:hover {
     
